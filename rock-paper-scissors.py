@@ -1,5 +1,4 @@
-#rock,paper,scissors
-
+#rock,paper,scissors game using Python.
 import random
 
 opt = ["Rock", "Paper", "Scissors"]
@@ -16,4 +15,5 @@ else:
     elif (a == "Rock" and b == "Paper") or (a == "Scissors" and b == "Rock") or (a == "Paper" and b == "Scissors"): 
         print("You lose")
     else:
+
         print("You win")
