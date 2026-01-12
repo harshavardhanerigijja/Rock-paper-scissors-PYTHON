@@ -14,6 +14,5 @@ else:
         print("Tie")
     elif (a == "Rock" and b == "Paper") or (a == "Scissors" and b == "Rock") or (a == "Paper" and b == "Scissors"): 
         print("You lose")
-    else:
-
+    else:
         print("You win")
